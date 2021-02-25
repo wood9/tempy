@@ -1,14 +1,14 @@
 {
-	"name": "tempy",
+	"name": "mtempy",
 	"version": "1.0.0",
 	"description": "Get a random temporary file or directory path",
 	"license": "MIT",
-	"repository": "sindresorhus/tempy",
-	"funding": "https://github.com/sponsors/sindresorhus",
+	"repository": "https://github.com/wood9/tempy",
+	"funding": "https://github.com/wood9/tempy",
 	"author": {
 		"name": "Sindre Sorhus",
 		"email": "sindresorhus@gmail.com",
-		"url": "https://sindresorhus.com"
+		"url": "https://github.com/wood9/tempy"
 	},
 	"engines": {
 		"node": ">=10"
@@ -35,7 +35,7 @@
 		"unique"
 	],
 	"dependencies": {
-		"del": "^6.0.0",
+		"rmfr": "^2.0.0",
 		"is-stream": "^2.0.0",
 		"temp-dir": "^2.0.0",
 		"type-fest": "^0.16.0",
